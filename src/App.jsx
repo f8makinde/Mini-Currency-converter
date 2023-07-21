@@ -35,7 +35,7 @@ const App = () => {
 
   return (
       <div className='h-screen  flex items-center justify-center overflow-hidden'>
-        <div className='lg:max-w-[40%] sm:max-w-[10%] rounded-xl  border border-[#363739] bg-[#262629]'>
+        <div className='max-w-full rounded-xl  border border-[#363739] bg-[#262629]'>
           <div>
           <div className='flex items-center p-3 justify-between border-b border-[#363739]'>
           <h1 className='text-[#838385] text-lg font-bold'>Currency Converter</h1>
